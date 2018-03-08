@@ -1,0 +1,10 @@
+2018-03-08 11:27:59 [http-nio-8080-exec-10] INFO  com.kgisl.logback.IndexController - This is an info message
+2018-03-08 11:28:01 [http-nio-8080-exec-10] WARN  com.kgisl.logback.IndexController - This is a warn message
+2018-03-08 11:28:01 [http-nio-8080-exec-10] ERROR com.kgisl.logback.IndexController - This is an error message
+2018-03-08 11:28:01 [http-nio-8080-exec-10] INFO  c.kgisl.logback.SpringLoggingHelper - This is an info message
+2018-03-08 11:28:01 [http-nio-8080-exec-10] WARN  c.kgisl.logback.SpringLoggingHelper - This is a warn message
+2018-03-08 11:28:01 [http-nio-8080-exec-10] ERROR c.kgisl.logback.SpringLoggingHelper - This is an error message
+2018-03-08 11:28:01 [http-nio-8080-exec-10] INFO  com.kgisl.logback.TodoAspect -  ###### Returning for class : com.kgisl.logback.IndexController ; Method : index 
+2018-03-08 11:28:01 [http-nio-8080-exec-10] INFO  com.kgisl.logback.TodoAspect -  ###### with value : index
+2018-03-08 11:28:02 [http-nio-8080-exec-10] INFO  com.kgisl.logback.TodoAspect -  ###### Returning for class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController ; Method : errorHtml 
+2018-03-08 11:28:02 [http-nio-8080-exec-10] INFO  com.kgisl.logback.TodoAspect -  ###### with value : ModelAndView: reference to view with name 'error'; model is {timestamp=Thu Mar 08 11:28:02 IST 2018, status=404, error=Not Found, message=No message available, path=/}
